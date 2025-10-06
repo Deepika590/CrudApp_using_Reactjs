@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", serif;
+
+  
+}
+.container{
+  width: 80%; 
+  padding: 30px;
+  margin: 50px auto; 
+  background-color:#6A9AB0;  
+  border-radius: 4px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+ 
+}
+ h1{
+    padding-bottom: 20px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-size: 40px;
+}
+
+th,tr,td{
+  border-collapse: collapse;
+  padding: 15px;
+}
+tr>th{
+  text-align: center;
+  background-color: #001F3F;
+  color:whitesmoke;
+}
+#editBtn{
+  padding:4px;
+  background-color:#001F3F;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  font-weight: 500;
+ 
+}
+#deleteBtn{
+  padding:4px;
+  background-color: #dc3545;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  font-weight: 500;
+}
+
+/* Popup Background */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; 
+  }
+  /* Popup Content */
+  .popup-content {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+    position: relative; 
+    /* For positioning the close button */
+  }
+  
+  /* Popup Heading */
+  .popup-content h2 {
+    margin: 0 0 20px;
+    font-size:30px;
+    font-weight: 600;
+    color:black;
+}
+  /* Popup Input Fields */
+  .popup-content input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #838080;
+    border-radius: 4px;
+  }
+  label{
+    margin-right: 250;
+    color:#001F3F;
+    font-weight: 600;  }
+  /* Buttons */
+  .popup-content button {
+    padding:8px 8px 8px 8px;
+    margin: 10px 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  .popup-content button:first-of-type {
+    background-color:#001F3F; 
+    color: white;
+    
+  }
+  
+  .popup-content button:last-of-type {
+    background-color: rgb(241, 40, 40);
+    color: white;
+  }
+  
+  /* Close Button */
+  .popup-content button:hover {
+    opacity: 0.9;
+  }
+  /* Navbar Style */
+.navbar {
+  color: white;
+  border-radius: 5px;
+  width: 100%; 
+  margin: 18px auto; 
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.add-btn {
+  padding:8px 8px 8px 8px;
+  margin-top:10px;
+  margin-left: 814px;
+  background-color:#001F3F;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+.add-btn:hover {
+  background-color:#001F3F;
+}
+
+/* Table Styles */
+table {
+  width: 100%; 
+  margin: 10px auto; 
+  border-collapse: collapse;
+  background-color: #f8f9fa; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: none;
+  
+}
+
+th, td {
+  padding:12px;
+  text-align: center;  
+  /* border: 1px solid #ccc;  */
+  height: 10px;
+  border: none;
+  font-size: 14px;
+  
+}
+
+th {
+  background-color: #001F3F; 
+  color: white; 
+  font-size: 14px;
+  font-weight: 600; 
+}
+
+tr:nth-child(even) {
+  background-color:#3A6D8C; 
+}
+
+tr:nth-child(odd) {
+  background-color: #f8f9fa; 
+}
+
+tr:hover {
+  background-color: #6A9AB0; 
+  color: rgb(250, 247, 247); 
+}
+
+/* Buttons */
+#editBtn, #deleteBtn {
+  padding:8px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#editBtn {
+  background-color: #001F3F; 
+}
+
+#deleteBtn {
+  background-color: red; 
+}
+
+/* Hover effect for buttons */
+#editBtn:hover {
+  background-color: #001F3F;
+}
+
+#deleteBtn:hover {
+  background-color: #c82333;
+}
